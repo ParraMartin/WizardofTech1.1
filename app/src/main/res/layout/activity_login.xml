@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity">
+
+    <!-- ImageView para el fondo -->
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_login"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!-- Rectángulo semitransparente -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="#80000000"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Contenedor para elementos de inicio de sesión -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- EditText para el nombre de usuario con texto blanco -->
+            <EditText
+                android:id="@+id/usernameEditText"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#F8F5F5"
+                android:hint="Nombre de usuario"
+                android:scrollbarThumbHorizontal="@color/white"
+                android:scrollbarThumbVertical="@color/white"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" /> <!-- Aplica el estilo personalizado aquí -->
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#FFFCFC"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:scrollbarThumbHorizontal="@color/white"
+                android:scrollbarThumbVertical="@color/white"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" /> <!-- Aplica el estilo personalizado aquí -->
+
+            <!-- Botón de inicio de sesión con fondo verde -->
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Iniciar sesión"
+                android:backgroundTint="#43A047" /> <!-- Cambiar el color de fondo aquí -->
+
+            <Button
+                android:id="@+id/registroButton"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Registrate "
+                android:backgroundTint="#43A047" /> <!-- Cambiar el color de fondo aquí -->
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Agregar más elementos según sea necesario, como botón de registro o mensajes de error -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

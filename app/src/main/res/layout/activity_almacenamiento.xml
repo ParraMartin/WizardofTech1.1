@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Fuente de Alimentación (PSU)"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energía sin Límites: Todo lo que Debes Saber sobre Fuentes de Alimentación para PC\"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La fuente de alimentación, o PSU (Power Supply Unit), es un componente crítico en tu PC de escritorio que a menudo se pasa por alto, pero su importancia es inmensurable. Asegura que todos los componentes de tu sistema reciban la energía necesaria para funcionar de manera eficiente y confiable. Aquí te ofrecemos información esencial sobre las fuentes de alimentación."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La potencia es el factor más importante a considerar al elegir una fuente de alimentación. Calcular la potencia necesaria para tu sistema es crucial para garantizar un funcionamiento estable y seguro. Asegúrate de que la PSU tenga una potencia adecuada, teniendo en cuenta todos los componentes de tu PC, con un margen para futuras actualizaciones y expansión de componentes. Elegir una fuente de alimentación con una potencia insuficiente puede resultar en problemas de estabilidad, reinicios inesperados y, en casos extremos, daños a tus componentes."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La eficiencia energética es otro aspecto fundamental que puede tener un impacto en tu factura de electricidad y en el medio ambiente. Las fuentes de alimentación eficientes convierten una mayor cantidad de energía de la red eléctrica en energía utilizable, reduciendo el consumo de energía y la producción de calor. Busca una fuente de alimentación con una certificación de eficiencia, como 80 PLUS, para ahorrar energía y reducir tu huella de carbono. Cuanto mayor sea el nivel de certificación, mayor será la eficiencia de la fuente de alimentación."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La modularidad es una característica que afecta la gestión de cables y la circulación de aire en tu caja. Las fuentes de alimentación modulares permiten conectar solo los cables necesarios, lo que facilita la organización de los cables y mejora el flujo de aire. Esto puede ayudar a mantener tu PC más fresco y funcionando de manera más eficiente. La gestión de cables ordenada no solo mejora la estética de tu PC, sino que también contribuye a un mejor flujo de aire, lo que es esencial para mantener las temperaturas bajo control y el rendimiento óptimo de tus componentes."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Además de la potencia y la eficiencia, la calidad de la marca de la fuente de alimentación es importante. Las marcas de renombre suelen ofrecer fuentes de alimentación más confiables y duraderas, lo que es esencial para la longevidad de tu PC. Evita las fuentes de alimentación genéricas de baja calidad, ya que pueden dañar tus componentes y poner en riesgo la estabilidad de tu sistema. Una fuente de alimentación de mala calidad puede causar fluctuaciones de voltaje y sobrecalentamiento, lo que a largo plazo puede provocar daños costosos en tu PC."
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

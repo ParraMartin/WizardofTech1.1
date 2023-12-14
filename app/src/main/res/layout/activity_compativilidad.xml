@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guía de reciclaje de computadoras"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guía para saber la compatibilidad de los componentes de computadores"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuando se trata de armar un computador, es importante asegurarse de que todos los componentes sean compatibles entre sí. De lo contrario, podrías experimentar problemas de funcionamiento o incluso daños a los componentes."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En esta guía, te mostraremos cómo saber la compatibilidad de los componentes de computadores."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Los componentes más importantes a considerar son:"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Procesador"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El procesador y la placa base son los dos componentes más importantes de un computador. Para que sean compatibles, deben tener el mismo zócalo. El zócalo es el conector físico que une el procesador a la placa base."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puedes encontrar la información sobre el zócalo de un procesador en la página web del fabricante. Por ejemplo, si tienes un procesador Intel Core i5-12600K, el zócalo es LGA 1700."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para encontrar la información sobre el zócalo de una placa base, busca la sección 'Soporte de CPU' en la página web del fabricante. Por ejemplo, si estás considerando comprar una placa base MSI B660M Mortar WiFi, la lista de procesadores compatibles incluye el Intel Core i5-12600K."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memoria RAM"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La memoria RAM es otro componente importante que debe ser compatible con la placa base. Para que sean compatibles, la memoria RAM debe tener el mismo tipo y velocidad que la placa base admite."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El tipo de memoria RAM más común es DDR4. Sin embargo, también hay otros tipos, como DDR3 y DDR5. La placa base debe admitir el tipo de memoria RAM que quieres usar."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La velocidad de la memoria RAM se mide en megahercios (MHz). La placa base debe admitir la velocidad de memoria RAM que quieres usar."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puedes encontrar la información sobre el tipo y la velocidad de memoria RAM compatibles con una placa base en la página web del fabricante."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarjeta gráfica"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La tarjeta gráfica es importante si quieres jugar videojuegos o realizar otras tareas que requieren un alto rendimiento gráfico. Para que sea compatible con la placa base, la tarjeta gráfica debe tener el mismo factor de forma que la placa base admite."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El factor de forma es el tamaño físico de la tarjeta gráfica. Las tarjetas gráficas más comunes son de factor de forma ATX o Mini-ITX. La placa base debe admitir el factor de forma de la tarjeta gráfica que quieres usar."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="También es importante verificar que la tarjeta gráfica tenga la potencia suficiente para alimentarse de la placa base. La placa base debe tener suficientes conectores de alimentación para la tarjeta gráfica."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puedes encontrar la información sobre el factor de forma y la potencia de la tarjeta gráfica en la página web del fabricante."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Almacenamiento"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El almacenamiento es importante para almacenar tus archivos y programas. Los dos tipos de almacenamiento más comunes son los discos duros y las unidades de estado sólido (SSD)."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Los discos duros son más baratos que los SSD, pero son más lentos. Los SSD son más caros que los discos duros, pero son mucho más rápidos."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para que el almacenamiento sea compatible con la placa base, debe tener el mismo interfaz que la placa base admite."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Las interfaces de almacenamiento más comunes son SATA y PCIe. La placa base debe admitir la interfaz de almacenamiento que quieres usar."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fuente de alimentación"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La fuente de alimentación es importante para suministrar energía a todos los componentes del computador. Para que sea compatible con la placa base, debe tener la potencia suficiente para alimentar todos los componentes."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puedes encontrar la información sobre la potencia de la fuente de alimentación en la página web del fabricante."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Herramientas para verificar la compatibilidad"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Existen varias herramientas que puedes usar para verificar la compatibilidad de los componentes de computadores. Una de las herramientas más populares es PCPartPicker."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PCPartPicker es un sitio web que te permite crear una lista de los componentes que quieres usar en tu computador. El sitio web luego verificará la compatibilidad de los componentes y te alertará si hay algún problema."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otra herramienta útil es CPU-Z. CPU-Z es una herramienta gratuita que te brinda información detallada sobre tu procesador, placa base y otros componentes."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puedes usar CPU-Z para verificar el zócalo de tu procesador y la lista de procesadores compatibles con tu placa base."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conclusión"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Al seguir estos consejos, puedes estar seguro de que todos los componentes de tu computador sean compatibles entre sí."
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>

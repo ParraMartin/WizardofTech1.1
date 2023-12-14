@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Memoria RAM"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acelera tu PC: Todo lo que Debes Saber sobre la Memoria RAM\"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La memoria RAM (Random Access Memory) es un componente crítico en cualquier PC de escritorio. Funciona como una memoria temporal de acceso rápido que almacena datos y programas en uso actualmente para proporcionar un acceso más rápido a la CPU. La elección de la memoria RAM adecuada puede tener un impacto significativo en el rendimiento de tu sistema."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La capacidad de la RAM es un factor importante a considerar. La mayoría de los usuarios encontrarán que 8GB a 16GB de RAM son suficientes para tareas diarias como navegar por la web, el correo electrónico y la ofimática. Sin embargo, si eres un jugador ávido o trabajas con aplicaciones de edición de video y modelado 3D, es posible que desees considerar 32GB o más para garantizar un rendimiento fluido en tareas exigentes."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Además de la capacidad, la velocidad de la RAM es un aspecto crucial. La velocidad se mide en megahercios (MHz) y determina la rapidez con la que la RAM puede transferir datos. Una RAM más rápida puede acelerar la multitarea y mejorar el rendimiento en aplicaciones intensivas. Para tareas diarias, una RAM con una velocidad de 2400MHz a 3200MHz es adecuada, pero los jugadores y profesionales pueden beneficiarse de velocidades más altas."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La latencia de la RAM es otro factor importante. La latencia, medida en CAS latency (CL), se refiere al tiempo que tarda la RAM en responder a las solicitudes de la CPU. Una latencia más baja es preferible ya que implica un acceso más rápido a los datos almacenados en la RAM."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asegúrate de que la RAM sea compatible con tu placa madre en términos de tipo (DDR3, DDR4, etc.) y factor de forma (DIMM, SO-DIMM). La elección de la memoria RAM adecuada para tu sistema puede marcar la diferencia en términos de rendimiento y capacidad de multitarea."
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

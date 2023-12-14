@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="Usuario">
+
+            <menu>
+
+                <item
+                    android:id="@+id/in_secion"
+                    android:title="Iniciar sesión"/>
+
+
+                <item
+                    android:id="@+id/reg_usuario"
+                    android:title="Registrate"/>
+
+
+            </menu>
+
+        </item>
+
+
+
+    </group>
+
+
+        <item android:title="componentes">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/Gabinete"
+                    android:title="Gabinete / Torre de PC"
+                    android:icon="@drawable/ic_icon8"/>
+
+                <item
+                    android:id="@+id/Refrigeración"
+                    android:title="Refrigeración y ventiladores"
+                    android:icon="@drawable/ic_icon9"/>
+
+
+                <item
+                    android:id="@+id/Procesador"
+                    android:title="Procesador/CPU"
+                    android:icon="@drawable/ic_icon1"/>
+                <item
+                    android:id="@+id/Memoria_RAM"
+                    android:title="Memoria RAM"
+                    android:icon="@drawable/ic_icon2"/>
+                <item
+                    android:id="@+id/GPU"
+                    android:title="Tarjeta gráfica / GPU"
+                    android:icon="@drawable/ic_icon3"/>
+                <item
+                    android:id="@+id/Almacenamiento"
+                    android:title="Almacenamiento"
+                    android:icon="@drawable/ic_icon4"/>
+
+
+            <item
+                android:id="@+id/Placa"
+                android:title="Placa madre"
+                android:icon="@drawable/ic_icon5"/>
+
+            <item
+                android:id="@+id/Fuente"
+                android:title="Fuente de alimentación"
+                android:icon="@drawable/ic_icon6"/>
+            <item
+                android:id="@+id/Monitor"
+                android:title="Monitor"
+                android:icon="@drawable/ic_icon7"/>
+            </group>
+
+        </menu>
+        </item>
+
+</menu>

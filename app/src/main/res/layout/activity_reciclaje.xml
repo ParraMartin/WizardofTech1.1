@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guía de reciclaje de computadoras"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Por qué reciclar computadoras?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reciclar computadoras es importante por varias razones. En primer lugar, ayuda a reducir la cantidad de desechos electrónicos que terminan en los vertederos. Los desechos electrónicos pueden contaminar el medio ambiente y liberar sustancias tóxicas. En segundo lugar, el reciclaje de computadoras ayuda a conservar los recursos naturales. Los materiales utilizados en las computadoras, como el plástico, el metal y los componentes electrónicos, pueden reciclarse y reutilizarse para fabricar nuevos productos."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Cómo reciclar una computadora?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hay varias formas de reciclar una computadora. Puede llevarla a un centro de reciclaje local, enviarla a un programa de reciclaje de computadoras en línea o donarla a una organización benéfica que la reciclará."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si lleva su computadora a un centro de reciclaje local, asegúrese de que la computadora esté apagada y desconecte todos los cables. También debe eliminar todos los datos personales de la computadora."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si envía su computadora a un programa de reciclaje de computadoras en línea, el programa generalmente le proporcionará una etiqueta de envío prepagada."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si dona su computadora a una organización benéfica que la reciclará, asegúrese de comunicarse con la organización para obtener instrucciones sobre cómo preparar la computadora para la donación."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Componentes de la computadora que se pueden reciclar"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los componentes de la computadora que se pueden reciclar incluyen:
+
+Placa base: La placa base es la base de la computadora y conecta todos los demás componentes. Se puede reciclar en un centro de reciclaje de desechos electrónicos.
+Procesador: El procesador es el cerebro de la computadora y controla todas las operaciones. Se puede reciclar en un centro de reciclaje de desechos electrónicos.
+Memoria RAM: La memoria RAM es la memoria de trabajo de la computadora y se utiliza para almacenar datos temporalmente. Se puede reciclar en un centro de reciclaje de desechos electrónicos.
+Disco duro: El disco duro es donde se almacenan los datos de la computadora. Se puede reciclar en un centro de reciclaje de desechos electrónicos.
+Unidad óptica: La unidad óptica es la unidad que se utiliza para leer y escribir discos ópticos, como CD, DVD y Blu-ray. Se puede reciclar en un centro de reciclaje de desechos electrónicos.
+Fuente de alimentación: La fuente de alimentación proporciona energía a los componentes de la computadora. Se puede reciclar en un centro de reciclaje de desechos electrónicos.
+Monitor: El monitor es la pantalla de la computadora. Se puede reciclar en un centro de reciclaje de desechos electrónicos.
+Teclado: El teclado es el dispositivo de entrada que se utiliza para escribir texto. Se puede reciclar en un centro de reciclaje de desechos electrónicos.
+Ratón: El ratón es el dispositivo de entrada que se utiliza para mover el cursor en la pantalla. Se puede reciclar en un centro de reciclaje de desechos electrónicos.
+Altavoces: Los altavoces se utilizan para reproducir sonido. Se pueden reciclar en un centro de reciclaje de desechos electrónicos."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Componentes de la computadora que no se pueden reciclar"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los componentes de la computadora que no se pueden reciclar incluyen:
+
+Baterías: Las baterías contienen materiales peligrosos que deben desecharse de manera especial. Se pueden llevar a un centro de reciclaje de baterías.
+Pantallas: Las pantallas de plasma y LCD contienen materiales peligrosos que deben desecharse de manera especial. Se pueden llevar a un centro de reciclaje de desechos electrónicos.
+Cartuchos de tinta: Los cartuchos de tinta contienen materiales peligrosos que deben desecharse de manera especial. Se pueden llevar a un centro de reciclaje de desechos electrónicos.
+Consejos para reciclar computadoras
+
+Eliminar todos los datos personales de la computadora antes de reciclarla.
+Apague la computadora y desconéctela de todos los cables antes de reciclarla.
+Si la computadora está dañada, asegúrese de que esté empaquetada de forma segura para evitar que se derramen materiales peligrosos."
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

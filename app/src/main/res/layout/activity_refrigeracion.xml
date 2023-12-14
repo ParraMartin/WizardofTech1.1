@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@android:color/background_light"
+        tools:context=".Vista.MainActivity">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guía Completa de Refrigeración para PC de Escritorio: Mantén Tu Equipo Fresco y Rápido"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Párrafo 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si eres un entusiasta de la informática, seguramente te has preguntado en algún momento cómo mantener tu PC de escritorio funcionando de manera eficiente y fresca. La respuesta es simple: una refrigeración adecuada. En este blog, te llevaremos a un viaje a través del mundo de la refrigeración de PC, desde los conceptos básicos hasta las opciones avanzadas, para que puedas tomar decisiones informadas y mantener tu PC en pleno rendimiento. ¡Comencemos!"
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Título 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Por qué es importante la refrigeración de PC?"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Párrafo 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La refrigeración adecuada es esencial para mantener tu PC funcionando sin problemas. Cuando tu equipo se calienta, puede llevar a un rendimiento reducido, un mayor desgaste de los componentes y, en última instancia, una vida útil más corta. La refrigeración también es fundamental para el overclocking, si buscas exprimir al máximo el rendimiento de tu CPU y GPU."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Título 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipos de refrigeración de PC"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Párrafo 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Existen varios métodos de refrigeración para tu PC de escritorio. Los más comunes son:"
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Subtítulo 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refrigeración por aire:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Párrafo 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Este método utiliza ventiladores y disipadores de calor para disipar el calor de los componentes. Los ventiladores extraen el aire caliente del interior de la caja y lo expulsan al exterior."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Subtítulo 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refrigeración líquida:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Párrafo 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La refrigeración líquida utiliza un sistema de tuberías y radiadores para enfriar los componentes. Es ideal para sistemas de alto rendimiento y overclocking, ya que suele ser más eficiente que la refrigeración por aire."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Subtítulo 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refrigeración por aire:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Párrafo 6 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los ventiladores son esenciales para la refrigeración por aire. Puedes encontrar ventiladores de distintos tamaños y velocidades. Los ventiladores más grandes tienden a ser más silenciosos, pero ocupan más espacio en la caja."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Subtítulo 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disipadores de calor:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Párrafo 7 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estos componentes están en contacto directo con la CPU y la GPU, absorbiendo el calor y permitiendo que los ventiladores lo disipen. Hay modelos de todos los tamaños y formas, algunos de los cuales son muy efectivos."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Subtítulo 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refrigeración líquida:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Párrafo 8 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="En lugar de disipadores de calor, la refrigeración líquida utiliza bloques de agua para enfriar la CPU y la GPU. Estos bloques se conectan a un sistema de tuberías y radiadores llenos de líquido refrigerante."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Subtítulo 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radiadores:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Párrafo 9 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los radiadores son esenciales en la refrigeración líquida, ya que disipan el calor del líquido refrigerante. Puedes encontrar radiadores de diferentes tamaños y capacidades de enfriamiento."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Título 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consideraciones importantes:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Párrafo 10 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Espacio: Asegúrate de que tu caja tenga suficiente espacio para acomodar la refrigeración que elijas. La refrigeración líquida suele requerir más espacio que la refrigeración por aire."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Párrafo 11 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruido: Los ventiladores y bombas pueden generar ruido. Si buscas un equipo silencioso, elige componentes de alta calidad con diseño acústico."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Párrafo 12 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presupuesto: La refrigeración líquida tiende a ser más costosa que la refrigeración por aire. Considera tu presupuesto al tomar una decisión."
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Título 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En resumen, la refrigeración adecuada es esencial para mantener tu PC de escritorio funcionando a su máximo potencial. Tanto la refrigeración por aire como la refrigeración líquida tienen sus ventajas y desventajas, así que elige la que mejor se adapte a tus necesidades y preferencias. Mantén tu equipo fresco y experimenta un rendimiento óptimo en tus juegos y tareas diarias. ¡Tu PC te lo agradecerá!"
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Párrafo 13 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperamos que esta guía te haya ayudado a comprender mejor la refrigeración de PC de escritorio. Si tienes alguna pregunta o comentario, no dudes en dejarlo abajo. ¡Feliz enfriamiento!"
+            android:lineSpacingMultiplier="1.2" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guía de reciclaje de mantenimiento de computadora"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mantenimiento"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="**Limpieza**\n\nLa limpieza regular de la computadora es importante para prolongar su vida útil y ayudar a evitar averías. El polvo puede obstruir los ventiladores y las rejillas de ventilación, lo que puede provocar un sobrecalentamiento de la computadora. La suciedad también puede acumularse en las conexiones eléctricas, lo que puede causar problemas de conectividad."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Para limpiar el exterior de la computadora, use un paño suave y seco. Evite usar limpiadores o aerosoles que puedan dañar la superficie de la computadora. Para limpiar el interior de la computadora, use una aspiradora con un accesorio para superficies delicadas. Evite tocar los componentes internos de la computadora."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="**Actualizaciones**\n\nLas actualizaciones de software y firmware pueden ayudar a mejorar el rendimiento de la computadora y corregir errores. Las actualizaciones de software suelen incluir nuevas funciones y mejoras de rendimiento. Las actualizaciones de firmware suelen corregir errores y vulnerabilidades de seguridad."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Para instalar las actualizaciones de software, abra el Centro de actualizaciones de Windows o el App Store. Para instalar las actualizaciones de firmware, siga las instrucciones del fabricante de la computadora."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="**Verificación de malware**\n\nEl malware puede dañar la computadora y causar problemas de rendimiento. El malware puede incluir virus, troyanos, spyware y ransomware."
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Para verificar la computadora en busca de malware, use un programa antivirus. Los programas antivirus suelen incluir una función de análisis automático que escanea la computadora en busca de malware. También puede realizar análisis manuales de la computadora cuando lo desee."
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

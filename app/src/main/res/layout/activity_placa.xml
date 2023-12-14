@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Placa Madre (Motherboard)"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El Cerebro de tu PC: Descifrando el Mundo de las Placas Madre\"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La placa madre, conocida también como motherboard o placa base, es un componente crítico en tu PC de escritorio. Funciona como el sistema nervioso central de tu ordenador, conectando y coordinando todos los demás componentes. Comprender sus características y funciones es esencial para asegurarte de que sea compatible con tus necesidades y el resto de tus componentes."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El factor de forma de la placa madre es uno de los primeros aspectos a considerar. Las placas madres vienen en varios tamaños, como ATX, micro ATX y mini ITX. La elección del factor de forma debe ajustarse a tu caja y necesidades específicas. Las placas ATX son las más grandes y ofrecen más ranuras de expansión y características, lo que las hace ideales para sistemas de alto rendimiento con múltiples tarjetas gráficas y dispositivos. Las placas micro ATX son una opción intermedia, que aún ofrece algunas características de alto nivel en un tamaño más compacto. Las placas mini ITX son las más pequeñas y se utilizan en sistemas extremadamente compactos."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El chipset es otro factor crítico en la elección de la placa madre. El chipset afecta las características y la conectividad de tu sistema. Asegúrate de que el chipset sea compatible con tu CPU y cumpla con tus necesidades. Por ejemplo, si planeas realizar overclocking para aumentar el rendimiento de tu CPU, debes elegir una placa con un chipset diseñado para ello. Si necesitas conectividad Wi-Fi integrada, busca un chipset que ofrezca esta característica. La elección del chipset tiene un impacto significativo en la funcionalidad y las capacidades de tu PC."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La conectividad y los puertos son aspectos importantes a considerar al elegir una placa madre. Asegúrate de que la placa madre tenga suficientes puertos USB para tus dispositivos, conectividad Ethernet para tu red y ranuras PCIe para tarjetas de expansión, como tarjetas gráficas y unidades SSD adicionales. Los puertos USB-C y Thunderbolt son cada vez más comunes y pueden ser útiles si planeas conectar dispositivos modernos y de alta velocidad. Además, verifica la disponibilidad de puertos de audio, HDMI o DisplayPort si planeas utilizar tu PC para tareas multimedia. La cantidad y el tipo de puertos pueden marcar una gran diferencia en la versatilidad de tu sistema."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Algunas placas madres también incluyen características adicionales para satisfacer diversas necesidades. Por ejemplo, algunas placas madre están equipadas con iluminación RGB para personalizar el aspecto de tu PC, botones de encendido y reinicio en la propia placa para facilitar el acceso, y capacidades de overclocking avanzadas que permiten ajustar la velocidad de la CPU y la RAM para un rendimiento óptimo. Estas características adicionales pueden marcar la diferencia según tus preferencias y planes de personalización."
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

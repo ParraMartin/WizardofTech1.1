@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cómo Armar una PC para Gaming - Intel"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+        <TextView
+            android:id="@+id/step1Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Armar una PC gamer desde cero es la única forma infalible de asegurarte de que el sistema será capaz de satisfacer todas tus preferencias personales. Cuando determinas todo lo que hay en tu PC, desde la fuente de alimentación en adelante, sabes que podrás usar los juegos que quieras, a las velocidades de cuadro que quieras, sin sacrificar desempeño. Además, una PC armada a tu medida te permitirá hacerle más actualizaciones; ya sea que la tecnología cambie, que tus necesidades y gustos de gamer cambien o según tu presupuesto lo permita."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen 1 -->
+        <ImageView
+            android:id="@+id/a1"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm1"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+
+
+        <TextView
+            android:id="@+id/step2Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aunque construir una PC puede parecer complejo, especialmente si es la primera vez que trabajas dentro de la carcasa, es posible que te resulte más fácil de lo que piensas. Esta guía completa, paso a paso, te guiará a través del proceso de montaje de tu propia PC para gaming, proporcionando muchos consejos y trucos de nuestros armadores veteranos a lo largo del camino.Comprueba si la PC adecuada para ti es prefabricada o personalizada."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Paso 1:  -->
+        <TextView
+            android:id="@+id/step3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PREPARACIÓN 1: Herramientas para armar una PC"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- imagen2  -->
+        <ImageView
+            android:id="@+id/a2"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm2"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+        <TextView
+            android:id="@+id/step3Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Antes de empezar a armar la PC, tendrás que reunir algunas herramientas. Preparar los materiales y el espacio de trabajo con antelación ayudará a garantizar que el proceso de armado se desarrolle sin problemas.
+
+Espacio de trabajo. Necesitarás una gran superficie sobre la cual trabajar, por ejemplo una mesa. Para prevenir una descarga electroestática accidental (que puede dañar componentes sensibles), asegúrate de estar parado sobre una superficie sin alfombra.
+Destornilladores. Necesitarás un destornillador Phillips n.° 2 para casi todo. Además, si vas a instalar un dispositivo M.2, necesitarás un destornillador Philips n.º 0.
+Consejo: Los destornilladores magnéticos ayudan a evitar que los tornillos caigan dentro de la carcasa y no dañan los componentes.
+Unidad flash USB. Necesitarás una unidad flash de 8 GB, o mayor, para almacenar el instalador del sistema operativo que vayas a utilizar."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Paso 2: -->
+        <TextView
+            android:id="@+id/step4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PREPARACIÓN 2: Gabinetes de la PC de gaming"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- imagen3  -->
+        <ImageView
+            android:id="@+id/a3"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm3"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+        <TextView
+            android:id="@+id/step4Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Antes de comenzar a elegir los componentes, debes tener en mente una carcasa o, al menos, un tamaño de carcasa.
+
+Lo más importante que hay que tener en cuenta al elegir un gabinete es dónde vas a poner la computadora.
+
+La ubicación final de tu PC determinará de qué tamaño puedes armarla ,y , además, te ayudará a determinar si vale la pena comprar algunos gabinetes premium. Por ejemplo, es probable que no quieras gastar en un panel lateral de vidrio templado, si la computadora va a estar escondida debajo del escritorio.
+
+Los gabinetes habitualmente vienen en tres tamaños: torre completa, torre intermedia y minitorre. Estas son categorías muy generales (los tamaños de los gabinetes no están estandarizados), pero se basan en el tamaño de las placas base."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Paso 3: -->
+        <TextView
+            android:id="@+id/step5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PREP. 3: Piezas de la PC para gaming"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <!-- imagen4  -->
+        <ImageView
+            android:id="@+id/a4"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm4"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <TextView
+            android:id="@+id/step5Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahora es el momento de reunir los componentes. Este paso puede ser más o menos práctico, según lo prefieras. Puedes investigar minuciosamente cada componente individual por tu cuenta y crear un diseño personalizado desde el comienzo, o puedes encontrar un diseño prefabricado en línea y hacerle ajustes para adecuarlo a tu presupuesto y tus necesidades específicas. Estas son algunas cosas que debes tener en cuenta para empezar:
+
+Presupuesto. Definitivamente te recomendamos que elabores un presupuesto antes de empezar a elegir los componentes. Recuerda que siempre puedes mejorar cada componente más adelante.
+Compatibilidad. Haz una lista de construcción antes de realizar cualquier compra; todos los componentes deben ser compatibles con todos los demás componentes.
+Requisitos del sistema. Si estás armando esta PC porque quieres jugar a un determinado juego, verifica los requisitos del sistema recomendados para ese juego y planifica en consecuencia.
+Además del gabinete, necesitarás los siguientes componentes para armar una PC de gaming:
+
+Unidad central de procesamiento (CPU)
+Unidad de procesamiento de gráficos (GPU)
+Motherboard
+Memoria (RAM)
+Almacenamiento
+Fuente de alimentación (PSU)
+Refrigeración del sistema
+Periféricos para gaming
+Sistema operativo (SO)
+Veamos qué hace cada componente, por qué es necesario y qué necesitas buscar cuando hagas tus compras.
+
+Unidad central de procesamiento (CPU)
+El cerebro de tu PC, la CPU, es responsable de ejecutar las instrucciones necesarias para que los programas funcionen, dictando las tareas a todos los demás componentes. Afecta a todas las facetas de tu experiencia, incluidos los juegos, la transmisión en directo, la creación de contenido y las multitareas. La elección de la CPU adecuada es esencial a la hora de armar una PC para gaming.
+
+A la hora de seleccionar una CPU para juegos, busca un procesador Intel® Core™ con una frecuencia Turbo máxima elevada, la cual determina la máxima velocidad de reloj que puede alcanzar mediante la tecnología Intel Turbo Boost, así como un número elevado de núcleos y subprocesos. Ambas métricas pueden tener un impacto significativo en el desempeño.
+
+Una CPU con una frecuencia Turbo máxima elevada destaca en el desempeño de un solo subproceso, lo que aumenta los FPS en los juegos más exigentes.
+Por otro lado, más núcleos y más subprocesos te permiten hacer más a la vez, lo que mantiene tu sistema fluido y con buena capacidad de respuesta mientras pasas por las aplicaciones (por ejemplo, tu juego, Discord y el software de estudio de streaming). También te ayudan a conseguir una mejor jugabilidad en juegos optimizados para el renderizado de subprocesos múltiples, como Valorant1 y Fortnite, y en juegos con mucha geometría, como Minecraft."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+
+
+        <!-- imagen5  -->
+        <ImageView
+            android:id="@+id/a5"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm5"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <TextView
+            android:id="@+id/step6Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unidad central de gráficos (GPU)
+Las tarjetas gráficas independientes, como una GPU Intel® Arc™ serie A, son componentes grandes y potentes que se conectan a la ranura PCIe x16 de la placa base de la PC. Junto con la CPU, la GPU tiene un efecto directo en los FPS del juego y es imprescindible para quien quiera jugar a juegos exigentes y con muchos gráficos.
+
+Las GPUs Intel® Arc™ serie A también son capaces de realizar técnicas avanzadas de renderizado, como el trazado de rayos y el escalado XeSS, siendo este último el que eleva la resolución 1080p a 4K, ofreciendo imágenes de alta fidelidad con un desempeño fluido.
+
+Cuando compares las GPUs para tu armado, investiga las puntuaciones de los análisis de referencia en Internet o busca los requisitos del sistema recomendados para algunos de los próximos juegos a los que te gustaría jugar y parte de ahí.
+
+Conoce más sobre los gráficos Intel® Arc™ serie A.
+
+Motherboard
+La placa base es la placa de circuitos principal y está conectada a todo. La CPU se encuentra directamente en la placa base y todos los demás componentes (tarjetas gráficas, discos duros, memoria, unidades ópticas, tarjetas inalámbricas) se integran en la placa base.
+
+Una manera de acotar la selección de una placa base es comprar por tamaño. Los factores de forma más comunes son Extended ATX, ATX, microATX, y Mini-ITX."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen6  -->
+        <ImageView
+            android:id="@+id/a6"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm6"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+
+        <TextView
+            android:id="@+id/step7Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Las placas Extended ATX son las más grandes (30,5 cm x 33 cm o 30,5 cm x 25,6 cm) y, con frecuencia, tienen ocho ranuras para RAM (para hasta 128 GB de RAM).
+Las placas base ATX son un poco más pequeñas (30,5 x 24,4 cm) y, por lo general, no admiten más de cuatro ranuras para RAM.
+Las placas base microATX (24,4 cm x 24,4 cm) también tienen hasta cuatro ranuras para RAM.
+Las placas Mini-ITX son las más pequeñas de las cuatro (17 cm x 17 cm) y, por lo general, tienen dos ranuras para RAM.
+Como todos los componentes se conectan a la placa base, es importante elegir una que sea lo suficientemente grande como para que quepa el hardware actual y futuro.
+
+El tamaño no es el único factor. La placa base debe ser compatible con los componentes que se conecten a ella, tanto para el armado actual como para cualquier actualización de hardware que se realice en el futuro. (La herramienta de compatibilidad para PC de escritorio Intel® puede ayudar).
+
+Las placas base más recientes tienen la ventaja de ser compatibles con las últimas tecnologías y estándares de vanguardia. Algunos chipsets Intel® serie 600, por ejemplo, son compatibles con potentes componentes de próxima generación, como RAM DDR5, gráficos PCIe 5.0 y SSDs, así como el sistema Intel® Killer™ Wi-Fi 6E integrado.
+
+Conoce los detalles de cómo elegir una placa base."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Paso 1: -->
+        <TextView
+            android:id="@+id/step8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 1: Instalar la CPU"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/step8Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: placa base, CPU
+
+Retira la placa base de su embalaje antiestático y colócala sobre la superficie de trabajo. Encuentra el zócalo de la CPU, que estará cubierto por una tapa protectora de plástico. En una esquina de la tapa de plástico, o más comúnmente, en el zócalo mismo, verás una flecha pequeña. Recuerda dónde se encuentra la flecha.
+
+Junto al zócalo de la CPU, verás una pequeña palanca de metal. Oprime la palanca hacia abajo y jala suavemente hacia un lado (alejándola del zócalo) para abrir la bandeja del zócalo."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+
+        <!-- imagen7  -->
+        <ImageView
+            android:id="@+id/a7"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm7"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+
+        <TextView
+            android:id="@+id/step9Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abre la CPU y retira el embalaje. Ten mucho cuidado al manipular la CPU, ya que tanto la CPU como el zócalo de la CPU son extremadamente susceptibles de sufrir daños físicos. Sostén la CPU por los bordes, nunca toques los pines de la parte inferior del chip, ya que tus dedos pueden transferirles polvo o grasa, y evita tocar la parte superior del chip.
+
+
+En la esquina de la CPU verás una flecha. Alinea esta flecha con la flecha en el zócalo y coloca suavemente la CPU en el zócalo.
+
+Una vez que hayas asentado suavemente la CPU, puedes bajar la palanca de retención y volver a colocarla en su sitio. Bajar la palanca requiere un poco de fuerza, pero la colocación de la CPU no."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen8 -->
+
+        <ImageView
+            android:id="@+id/a8"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm8"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 2: (Opcional) Instalar las SSD M.2"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/step11Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: placa base, SSD M.2, destornillador Phillips n.° 0, manual del usuario de la placa base
+
+Si deseas instalar una SSD M.2, este es un buen momento para hacerlo. Primero localiza la ranura de M.2 en la placa base. Es una ranura pequeña, horizontal, con un tornillo diminuto que la cruza. Si no la encuentras, si encuentras varias ranuras M.2 o si planeas instalar más de una SSD M.2, consulta el manual del usuario que vino con la placa base.
+
+Retira el tornillo pequeño con un destornillador Phillips n.° 0. No lo pierdas."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen9  -->
+        <ImageView
+            android:id="@+id/a9"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm9"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <TextView
+            android:id="@+id/step12Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desliza la SSD M.2 suavemente dentro de la ranura. Cuando esté totalmente asentada, sobresaldrá de la placa base en un ángulo de unos 35 grados. Empuja la SSD hacia abajo y vuelve a colocar el tornillo pequeño para trabarla en su lugar."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 3: Instalar la refrigeración de la CPU"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/step13Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: placa base con CPU instalada, refrigerador de CPU, pasta térmica, manual del refrigerador de la CPU
+
+Existen diferentes tipos de refrigeradores de CPU. Para conocer las instrucciones de instalación exactas, te recomendamos que consultes el manual que vino con el refrigerador de la CPU.
+
+Algunos refrigeradores requieren una abrazadera de montaje. La placa base podría tener una abrazadera preinstalada. Quizás debas retirar esta abrazadera si el refrigerador no la necesita, o reemplazarla si el refrigerador utiliza una abrazadera diferente. Hazlo antes de colocar la placa base dentro del gabinete.
+
+Algunos refrigeradores vienen con pasta térmica aplicada previamente al material conductor (que se asienta en la CPU) y otros no. Si el refrigerador no viene con pasta térmica aplicada previamente, tendrás que aplicar manualmente la pasta térmica antes de colocar el refrigerador. Para aplicar la pasta térmica, exprime una pequeña gota (no más grande que un grano de arroz) en el medio de la CPU. Luego, coloca el refrigerador en la CPU; la presión distribuirá la pasta térmica adecuadamente."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen10  -->
+        <ImageView
+            android:id="@+id/a10"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm10"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pASO 4: Instalar la memoria (RAM)"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/step14Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: placa base, RAM, manual del usuario de la placa base
+
+Determina cuántas ranuras RAM tiene la placa base (la mayoría tienen dos o cuatro). Si vas a utilizar todas las ranuras RAM disponibles, simplemente inserta la RAM en su lugar. Si no vas a utilizar todas las ranuras RAM, consulta el manual del usuario para descubrir cuál es la configuración correcta y utiliza las ranuras RAM de manera apropiada."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen11  -->
+
+        <ImageView
+            android:id="@+id/a11"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm11"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 5: (Opcional) Realizar una prueba fuera de la carcasa"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/step15Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: placa base con CPU y refrigerador de CPU instalado, RAM, GPU, PSU, destornillador, manual de usuario de la placa base, monitor de PC (conectado a la GPU)
+
+Ahora que ya has instalado la CPU y el refrigerador de la CPU, quizás quieras hacer una ejecución de prueba rápida de los componentes para estar seguro de que todos funcionan. Esta prueba es mucho más difícil de realizar (y es más difícil resolver los problemas) una vez que todo está instalado en el chasis. Para hacer esta prueba, instala la GPU y conecta todo a la fuente de alimentación (si no sabes cómo instalar la GPU, consulta la siguiente sección). Asegúrate de que la fuente de alimentación esté conectada a la placa base (tanto los 8 pines como los 24 pines de la CPU) y a la GPU, luego enchufa y enciende.
+
+
+"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen12  -->
+        <ImageView
+            android:id="@+id/a12"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm12"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+
+        <TextView
+            android:id="@+id/step16Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Algunas placas base de alta gama tienen botones de encendido, pero muchas otras no. Si no ves un botón de encendido, ubica los pines del interruptor de encendido, que son pares pequeños de clavijas que sobresalen de unos nódulos de colores. Los conectores del conmutador de encendido pueden estar rotulados (con algo como PWRON). Para encender la placa base, utiliza un destornillador para dar un golpecito a ambos conectores de encendido al mismo tiempo.
+
+                Ahora podrás determinar si alguno de los componentes no funciona o funciona mal. Si las luces de la placa base parpadean o emiten un pitido, es probable que haya una razón para ello. Algunas placas base tienen un visualizador de código POST (autoprueba de encendido) de dos dígitos para ayudarte a identificar cuál es el problema. Para deducir qué está intentando decirte, consulta el manual del usuario. Si la placa base no tiene un visualizador de código POST, conecta una pantalla a la GPU y fíjate si el sistema realiza un POST (autoprueba de encendido) o se inicia y muestra el logotipo de la placa base.
+
+Cuando termines la prueba, apaga la fuente de alimentación y espera a que los LEDs de la placa base se apaguen para asegurarte de que no haya energía residual en el sistema. Luego desinstala la GPU y desconecta todos los cables de alimentación antes de continuar con el próximo paso."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 6: Montar la fuente de alimentación"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/step18Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: PSU, gabinete, cables de PSU, destornillador Phillips n.° 2
+
+Desembala la PSU (o desconéctala de los componentes si optaste por realizar una ejecución de prueba) y aparta los cables (si es una unidad completa o semimodular).
+
+Echa una mirada al gabinete y deduce dónde debería ir la PSU (probablemente en la parte inferior, cerca de la parte de atrás) y cómo podría ir orientada. Idealmente, querrás orientar la PSU de modo tal que el ventilador mira hacia afuera del gabinete (a través de una ventilación). Si el gabinete tiene un respiradero en la parte de abajo, puedes montar la PSU al revés, siempre que el respiradero en la parte de abajo reciba un flujo de aire decente cuando la PC esté terminada.
+
+Si el gabinete no tiene respiraderos, monta la PSU de modo tal que el ventilador mire hacia arriba (en el gabinete) y asegúrate de que tenga suficiente espacio.
+Sujeta la PSU al gabinete utilizando los cuatro tornillos que vinieron con la PSU.
+
+Si estás utilizando una fuente de alimentación no modular o semimodular, este es el momento de pasar los cables sujetados a través del gabinete hasta donde deben llegar (utiliza las características de administración de cables si el gabinete las tiene)."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen13  -->
+
+        <ImageView
+            android:id="@+id/a13"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm13"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 7: Instalar la placa base"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/step19Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: gabinete, placa base, protector de E/S (si no está anexado a la placa base), destornillador Phillips n.° 2, tornillos, manual del usuario de la placa base
+
+Si tu placa base viene con un protector de E/S no conectado; una lámina metálica rectangular con recortes para los puertos de la placa base; primero debes colocarla en la parte posterior de la carcasa (asegúrate de que esté orientada correctamente). Los protectores de E/S tienen bordes filosos, así que cuida tus dedos.
+
+Cuando hayas colocado el protector de E/S, puedes instalar la placa base. Vuelve a verificar para estar seguro de que todos los cables estén pasados por el lugar correcto, y luego coloca la placa base (alinéala con el protector de E/S primero). Monta el primer tornillo, el tornillo central, con un destornillador Phillips #2 para sujetar la placa base. Asegúrate de no arrastrar la placa base por los separadores instalados en el chasis.
+
+La cantidad de tornillos que necesitarás para colocar la placa base variará según la placa, pero una placa base ATX de tamaño completo habitualmente requiere nueve tornillos. Utiliza todos los orificios para tornillos disponibles.
+
+Conecta la fuente de alimentación a la placa base. Hay dos conexiones principales: un conector de CPU de 8 pines hacia la parte superior de la placa y un conector de 24 pines desde el lateral.
+"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step191"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 8: Instalar la GPU"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/step191Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: placa base, GPU, destornillador Phillips n.° 2, tornillos, manual del usuario de la placa base
+
+Encuentra la ranura PCIe x16 en tu placa base. Será la ranura PCIe más larga y podría tener un color diferente a las otras. Si la placa base tiene más de una ranura PCIe x16, consulta el manual del usuario para ver si es necesario priorizar alguna ranura. Si se puede usar cualquier ranura, determina qué ranura usarás según dónde se coloquen los componentes. Es recomendable que la GPU tenga algo se espacio para ventilar.
+
+Dependiendo de tu gabinete, podría ser necesario retirar las cubiertas de E/S (pequeñas pestañas metálicas que bloquean el panel posterior del gabinete) para alojar la E/S de la GPU (HDMI, DisplayPort, DVI, etc.) y permitir el acceso desde el exterior del chasis.
+
+Retira la GPU de su embalaje antiestático y alinéala cuidadosamente con la abrazadera de retención posterior y la ranura en sí, luego empújala suavemente dentro de la ranura PCIe x16 (posiblemente escuches un clic). La pestaña de la PCIe en la placa base puede moverse a posición bloqueada, en caso de que tuvieras que volver a colocar la GPU.
+
+
+"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen14  -->
+        <ImageView
+            android:id="@+id/a14"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm14"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+        <!-- imagen15  -->
+        <ImageView
+            android:id="@+id/a15"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm15"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <TextView
+            android:id="@+id/step192Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuando la GPU esté totalmente asentada, sujétala a la parte posterior del gabinete utilizando uno o dos tornillos. Si la GPU requiere conectores de alimentación auxiliares, conéctala a la fuente de alimentación.
+"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step193"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 9: Instalar el almacenamiento"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/step193Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: placa base, SSD, HDD, destornillador Phillips n.° 2, tornillos, manual del usuario del chasis/gabinete
+
+Primero, inspecciona el gabinete. Cada gabinete es distinto en lo que respecta a opciones de compartimentos.
+
+Deberías encontrar una pila de compartimientos con diferentes tamaños en algún lugar dentro del gabinete. Podrían tener pequeños interruptores de plástico, en cuyo caso son compartimientos que no requieren herramientas, o quizás solo se vean como abrazaderas metálicas.
+
+El almacenamiento en general viene en dos tamaños, 2,5 pulgadas (HDD y SSD) y 3,5 pulgadas (HDD). La mayoría de los compartimientos de 3,5 pulgadas pueden aceptar unidades de 2,5 pulgadas, pero no a la inversa (algunos compartimientos de 3,5 pulgadas tendrán bandejas que no han sido diseñadas para unidades de 2,5 pulgadas, pero de todos modos pueden alojar compartimientos de 2,5 pulgadas). También es posible que veas bahías más grandes en tu carcasa, que son para unidades más grandes, como unidades ópticas, y generalmente se encuentran en la parte frontal de la carcasa, cerca de la parte superior.
+
+Si tienes compartimientos que no requieren herramientas, cada compartimiento tendrá su propio interruptor o palanca de plástico. Abre o destraba la palanca o el interruptor y podrás extraer la bandeja. Coloca la unidad en la bandeja. Algunas bandejas de 3,5 pulgadas fueron diseñadas para aceptar bandejas de 2,5 pulgadas. Si es el caso, tendrás que atornillar la unidad de 2,5 pulgadas a la bandeja de 3,5 pulgadas para que no se mueva.
+
+"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen16  -->
+        <ImageView
+            android:id="@+id/a16"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm16"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+        <!-- imagen17  -->
+
+        <ImageView
+            android:id="@+id/a17"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm17"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <TextView
+            android:id="@+id/step194Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vuelve a deslizar la bandeja dentro del compartimiento. Debe hacer clic al acomodarse en su sitio.
+
+Si no tienes compartimientos que no requieren herramientas, verás una abrazadera metálica (grande, como una lámina), con tiras u orificios. Para colocar una unidad en uno de estos compartimientos lo único que tienes que hacer es deslizar la unidad entre la abrazadera metálica y la parte lateral del gabinete y atornillarla en su lugar. Utiliza tantos tornillos como recomiende el manual del chasis, pero si no tienes suficientes tornillos la mayoría de las unidades estarán bien con tan solo dos.
+
+Cuando las unidades estén todas en su sitio, conéctalas a la placa base (utilizando un cable SATA, que debería haber venido con la unidad o con la placa base) y la fuente de alimentación.
+
+
+"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step1915"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 10: Instalar el sistema operativo"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/step19151Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piezas/herramientas: PC, monitor, mouse, teclado, sistema operativo guardado en una unidad flash USB
+
+Si aún no tienes el sistema operativo (OS) en una unidad flash USB, es hora de prepararlo. (Consulta la sección anterior sobre sistemas operativos, en PREP.: 3: Selección de los componentes para obtener más detalles).
+
+    Conecta la unidad flash USB que contiene el sistema operativo, además de un monitor, mouse y teclado, y enciende la PC.
+
+"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- imagen18  -->
+        <ImageView
+            android:id="@+id/a18"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm18"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+
+        <TextView
+            android:id="@+id/step19111Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La primera pantalla que veas te dirá que oprimas una tecla para ingresar a la configuración del sistema o el BIOS. Oprime la tecla para abrir el BIOS. (Si la pantalla titila muy rápidamente como para ver la clave, consulta el manual del usuario de la placa base.)
+
+En primer lugar, debes verificar si todos los componentes están instalados y son reconocidos. Busca la página en el BIOS que muestra la información del sistema de tu PC (diferentes placas base tendrán diferentes configuraciones de BIOS, pero deberías poder encontrar una pantalla que te brinde esta información) y controla si el sistema está reconociendo todo lo que has instalado hasta el momento.
+
+A continuación, explora el BIOS hasta que encuentres la página de Arranque (podría llamarse Orden de arranque o Prioridad de arranque). Cambia el orden de arranque para que tu unidad flash USB esté en primer lugar y la unidad en la que quieres instalar tu SO (si estás usando una SSD como unidad de arranque, querrás instalar el SO aquí) esté en segundo lugar.
+
+Reinicia la computadora. La computadora se iniciará desde la unidad USB y aparecerá el instalador del sistema operativo. Sigue las instrucciones para finalizar la instalación.
+"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+
+        <!-- Paso  -->
+        <TextView
+            android:id="@+id/step2915"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aún no terminamos"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- imagen19  -->
+        <ImageView
+            android:id="@+id/a19"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/arm19"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"  />
+
+
+        <TextView
+            android:id="@+id/step29151Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si has logrado completar toda la guía, ¡felicitaciones por terminar tu armado (en especial si es tu primera vez)! El trabajo, sin embargo, no necesariamente termina aquí.
+
+Una de las mejores cosas de armar una PC para gaming es que el trabajo nunca está realmente terminado. Puedes personalizar aún más tu armado para satisfacer tus necesidades y actualizarlo con el último hardware a medida que avanzan los requisitos del sistema de juego. La PC personalizada que acabas de armar te servirá de base para todas las experiencias de juego que te esperan y el ajuste de tus componentes forma parte de la diversión de poseerla.
+
+Ahora que sabes cómo armar una PC para gaming, puedes centrarte en obtener el máximo desempeño de tu armado personalizado. Una vez que todo esté en marcha, asegúrate de:
+
+Explorar todas las posibilidades que te ofrece tu nuevo sistema.
+Actualizar tu GPU con los últimos drivers.
+Admitir mayores velocidades de memoria si instalaste una memoria RAM de alta velocidad.
+Sobreacelera tu CPU, si has instalado una CPU Intel® Core™ de la serie K desbloqueada.
+Optimizar la configuración del sistema para obtener el máximo desempeño en los juegos.
+"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

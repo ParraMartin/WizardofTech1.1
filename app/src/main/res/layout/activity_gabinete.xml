@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Los Gabinetes para PC: Pieza Clave en tu Configuración"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Párrafo 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A menudo pasamos por alto el papel esencial que desempeña el gabinete de una computadora en nuestra configuración. Sin embargo, este componente cumple varias funciones críticas y puede tener un impacto significativo en la estética y el rendimiento de tu PC. En esta publicación, exploraremos la importancia de los gabinetes para PC y los diversos tipos disponibles en el mercado."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Título 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Almacenamiento Seguro y Organizado:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Párrafo 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uno de los propósitos fundamentales de un gabinete es proporcionar un espacio seguro y organizado para todos los componentes de tu PC. El gabinete alberga la placa base, la fuente de alimentación, la unidad de procesamiento central (CPU), las tarjetas gráficas, las unidades de almacenamiento y más. Un gabinete de calidad no solo protege estos componentes de daños físicos y del polvo, sino que también permite una disposición ordenada y una excelente administración de cables."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Título 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Variabilidad de Tamaño:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Párrafo 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los gabinetes para PC vienen en una variedad de tamaños y formatos. Desde los espaciosos gabinetes de torre completa que pueden acomodar múltiples tarjetas gráficas y soluciones de enfriamiento líquido personalizado hasta los compactos gabinetes Mini-ITX ideales para sistemas pequeños y portátiles. La elección del tamaño depende de tus necesidades específicas y del espacio disponible."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Título 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Enfriamiento Efectivo:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Párrafo 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La temperatura es una consideración crítica en cualquier PC. Los gabinetes están diseñados para facilitar la refrigeración efectiva. Ofrecen soporte para ventiladores y soluciones de enfriamiento líquido, asegurando que tus componentes funcionen a temperaturas óptimas. Esto es esencial para un rendimiento sostenido y la longevidad de tus piezas."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Título 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Estética y Personalización:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Párrafo 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los gabinetes también desempeñan un papel importante en la estética de tu PC. Vienen en una amplia gama de diseños, desde gabinetes minimalistas y elegantes hasta gabinetes para juegos con iluminación LED personalizable. Puedes seleccionar un gabinete que se adapte a tu estilo y preferencias personales."
+            android:lineSpacingMultiplier="1.2" />
+
+        <!-- Título 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Expansión y Adaptabilidad:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Párrafo 6 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dependiendo del tipo de gabinete que elijas, tendrás diferentes niveles de expansión. Los gabinetes más grandes permiten agregar más componentes, mientras que los gabinetes más pequeños se centran en la eficiencia y la portabilidad."
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="16dp" />
+</LinearLayout>
+    </ScrollView>

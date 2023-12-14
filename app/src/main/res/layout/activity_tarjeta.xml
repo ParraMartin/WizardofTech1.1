@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Tarjeta Gráfica (GPU)"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Más Allá de los Píxeles: El Poder de la Tarjeta Gráfica en tu PC\"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La tarjeta gráfica, o GPU (Graphics Processing Unit), es un componente fundamental en cualquier PC de escritorio, y su elección puede marcar la diferencia en el rendimiento y la calidad visual de tu sistema. Profundicemos en las características clave de las tarjetas gráficas y su impacto en el rendimiento de tu PC."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Las tarjetas gráficas se dividen en diferentes gamas de rendimiento, que van desde las tarjetas de gama baja hasta las de gama alta. Las tarjetas de gama baja son ideales para tareas cotidianas, como navegar por la web, la ofimática y la visualización de videos. Son asequibles y consumen menos energía. Las tarjetas de gama media ofrecen un equilibrio entre rendimiento y precio, lo que las hace ideales para juegos de calidad decente y trabajo con gráficos. Las tarjetas de gama alta son esenciales para los jugadores y profesionales que requieren un rendimiento excepcional en juegos intensivos, edición de video 4K y modelado 3D."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Una de las innovaciones más emocionantes en el mundo de las GPUs es la tecnología de trazado de rayos (ray tracing). Esta tecnología permite una representación más realista de la luz, las sombras y los reflejos en los juegos, lo que mejora significativamente la calidad visual. Las tarjetas gráficas más modernas están equipadas con núcleos de trazado de rayos dedicados para proporcionar efectos visuales asombrosos."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La VRAM (memoria de video) es otro aspecto crucial en las tarjetas gráficas. Cuanta más VRAM tenga una tarjeta, mejor podrá manejar texturas de alta resolución, modelos 3D complejos y escenarios detallados en juegos y aplicaciones de edición de video. Los jugadores y los profesionales de la creación de contenido a menudo optan por tarjetas con 8GB o más de VRAM para garantizar un rendimiento fluido y una representación visual impresionante."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Al elegir una tarjeta gráfica, asegúrate de que sea compatible con tu sistema en términos de espacio en la caja y conectividad. Algunas tarjetas gráficas son más largas y requieren conectores de alimentación adicionales. También verifica que tu fuente de alimentación tenga la capacidad adecuada para alimentar la tarjeta y satisfacer sus requisitos de energía."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Además de considerar la potencia y el rendimiento, ten en cuenta las características específicas de cada tarjeta gráfica, como la presencia de puertos HDMI, DisplayPort y USB-C para una conectividad versátil. También considera las capacidades de overclocking y la eficiencia energética, ya que estas características pueden marcar la diferencia en el rendimiento y el consumo de energía de tu sistema."
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

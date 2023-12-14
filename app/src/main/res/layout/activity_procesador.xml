@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El Corazón de Tu PC: Todo lo que Debes Saber sobre los Procesadores de Escritorio"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Párrafo 1 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Si alguna vez te has preguntado cuál es el componente más importante de tu PC de escritorio, la respuesta es simple: el procesador, también conocido como CPU (Central Processing Unit). En este blog, te sumergiremos en el fascinante mundo de los procesadores de PC, desde los conceptos básicos hasta las tendencias más recientes en el mercado. Acompáñanos en este viaje para conocer todo lo que necesitas saber sobre este componente crucial."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Título 2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué es un procesador y por qué es importante?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Párrafo 2 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El procesador es el cerebro de tu PC. Es responsable de ejecutar las instrucciones de los programas y realizar cálculos. Un procesador rápido y eficiente puede marcar la diferencia en la velocidad y la capacidad de respuesta de tu computadora. Ya sea que estés jugando, trabajando o navegando por la web, el rendimiento de tu CPU es fundamental."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Título 3 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conceptos básicos de los procesadores"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Párrafo 3 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Núcleos: Los procesadores pueden tener uno o varios núcleos. Cuantos más núcleos tenga, más tareas simultáneas podrá manejar. Los procesadores de doble núcleo, quad-core y más allá son comunes en la actualidad."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Párrafo 4 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frecuencia: La frecuencia, medida en gigahercios (GHz), determina la velocidad de funcionamiento del procesador. Una frecuencia más alta generalmente significa un procesador más rápido, pero no es el único factor a considerar."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Párrafo 5 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caché: La caché es una memoria interna del procesador que almacena datos frecuentemente utilizados. Cuanto más grande sea la caché, mejor podrá funcionar la CPU al acceder rápidamente a estos datos."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Título 4 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marcas y Modelos Populares"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Párrafo 6 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Las dos marcas más conocidas en el mundo de los procesadores de PC son Intel y AMD. Ambas ofrecen una amplia gama de procesadores para satisfacer las necesidades de diferentes usuarios, desde los entusiastas de los juegos hasta los profesionales de la edición de video."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Título 5 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tendencias actuales en procesadores"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Párrafo 7 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arquitectura: Los procesadores modernos utilizan arquitecturas más avanzadas, como la microarquitectura Intel Core y la arquitectura Zen de AMD, para mejorar el rendimiento y la eficiencia energética."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Párrafo 8 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Integración gráfica: Muchos procesadores actuales incluyen unidades de procesamiento gráfico (GPU) integradas, lo que ahorra espacio y energía, y es ideal para tareas gráficas básicas y juegos ligeros."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Párrafo 9 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Producción en nanómetros: Los procesadores se están fabricando en tecnologías de proceso más avanzadas, como los 7 nm, lo que permite un rendimiento superior y un menor consumo de energía."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Párrafo 10 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elegir el procesador adecuado:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Párrafo 11 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Al seleccionar un procesador para tu PC de escritorio, considera tus necesidades específicas. Si eres un gamer, un procesador de alta frecuencia y varios núcleos será ideal. Para tareas de edición de video o diseño, busca procesadores con una gran cantidad de núcleos y caché. Si tu presupuesto es limitado, las opciones de gama media ofrecen un buen equilibrio entre rendimiento y precio."
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Párrafo 12 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En resumen, el procesador de tu PC de escritorio es un componente esencial que afecta significativamente su rendimiento. Asegúrate de elegir un procesador que se adapte a tus necesidades y presupuesto. Mantente al tanto de las últimas tendencias y avances en el mundo de los procesadores para garantizar que tu PC esté siempre a la vanguardia."
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Párrafo 13 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esperamos que esta guía te haya proporcionado información valiosa sobre los procesadores de PC de escritorio. Si tienes alguna pregunta o comentario, ¡no dudes en compartirlo! Tu elección de procesador marcará la diferencia en tu experiencia informática diaria. ¡Feliz computación!"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+    </ScrollView>

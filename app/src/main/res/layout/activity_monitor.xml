@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitor"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La Ventana a tu Mundo Digital: Cómo Elegir el Monitor Perfecto\"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El monitor es una parte esencial de tu experiencia informática, ya que es la ventana a tu mundo digital. La elección de un monitor adecuado puede marcar una gran diferencia en tu productividad, experiencia de juego y entretenimiento en general. En esta guía, exploraremos en detalle las consideraciones clave al elegir un monitor."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La resolución del monitor es un factor crítico a tener en cuenta. Determina la cantidad de píxeles en la pantalla y, en última instancia, la nitidez de la imagen. Los monitores 1080p (Full HD) son la opción estándar y ofrecen una buena calidad de imagen para tareas cotidianas. Sin embargo, si buscas una claridad y detalle superiores, puedes optar por monitores 4K (Ultra HD) o incluso 8K para una experiencia visual impresionante. La elección de la resolución debe basarse en tus necesidades y preferencias personales."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La frecuencia de actualización es otro aspecto importante. Mide cuántas imágenes por segundo puede mostrar el monitor y se expresa en hercios (Hz). Los monitores con tasas de actualización más altas, como 144Hz o 240Hz, ofrecen una experiencia más suave, especialmente en juegos de alta velocidad. Si eres un entusiasta de los juegos, una alta frecuencia de actualización puede marcar la diferencia en la fluidez de tus juegos, reduciendo el efecto de desgarro de la pantalla."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El tipo de panel del monitor también juega un papel crítico en la calidad de la imagen y la experiencia visual. Los tipos de panel comunes incluyen IPS (In-Plane Switching), que ofrece una reproducción precisa de colores y amplios ángulos de visión, ideal para tareas de edición de fotos y diseño gráfico. Por otro lado, los paneles TN (Twisted Nematic) son conocidos por su alta velocidad de respuesta y son preferidos por los jugadores para minimizar el desenfoque de movimiento en juegos de ritmo rápido. También existen paneles OLED que ofrecen negros profundos y colores vibrantes, brindando una calidad de imagen impresionante."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La conectividad es un aspecto fundamental a considerar al elegir un monitor. Asegúrate de que el monitor cuente con los puertos que necesitas, como HDMI, DisplayPort y USB. Algunos monitores también ofrecen puertos USB adicionales para conectar periféricos directamente al monitor, lo que puede simplificar tu configuración. Además, la conectividad inalámbrica, como el Bluetooth, puede ser útil para emparejar dispositivos de forma sencilla."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Considera características adicionales que pueden mejorar tu experiencia. La tecnología de sincronización adaptativa, como G-Sync de NVIDIA o FreeSync de AMD, puede eliminar problemas de desgarro de pantalla y tartamudeo, lo que es esencial para los jugadores. La certificación HDR (Alto Rango Dinámico) mejora la calidad de imagen al ofrecer colores más vibrantes y un mayor contraste. La ergonomía también es esencial, con la capacidad de ajustar la altura, el ángulo y la rotación del monitor para una comodidad óptima durante largas sesiones de trabajo o juegos."
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

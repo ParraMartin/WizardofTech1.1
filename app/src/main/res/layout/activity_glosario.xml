@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glosario Técnico"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Términos y definiciones -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPU (Graphics Processing Unit): La Unidad de Procesamiento de Gráficos se utiliza para procesar y acelerar gráficos y renderizar imágenes en aplicaciones y juegos."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAM (Random Access Memory): Memoria de Acceso Aleatorio. Se utiliza para almacenar temporalmente datos y programas en ejecución, permitiendo un acceso rápido."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disco Duro (HDD): Un dispositivo de almacenamiento de datos a largo plazo que utiliza discos magnéticos para guardar información."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SSD (Solid State Drive): Un tipo de almacenamiento de estado sólido que es más rápido y resistente que los discos duros tradicionales y no tiene partes móviles."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Placa Base (Motherboard): La placa principal que conecta y permite la comunicación entre todos los componentes de una computadora."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fuente de Alimentación (PSU): Suministra energía eléctrica a los componentes de la computadora, transformando la corriente alterna en corriente continua."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPU Integrada: Un tipo de GPU que se encuentra en la misma placa base o en el mismo chip que la CPU y se utiliza para gráficos básicos."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarjeta de Video (Graphics Card): Una tarjeta de expansión que contiene una GPU dedicada para proporcionar un rendimiento gráfico mejorado."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIOS (Basic Input/Output System): Un firmware que controla la inicialización y configuración de hardware en una computadora."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dispositivo de Entrada/Salida (I/O Device): Componentes como teclados, ratones, impresoras y monitores que permiten la interacción con la computadora."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puerto USB (Universal Serial Bus): Un estándar de conexión utilizado para conectar una variedad de dispositivos periféricos a una computadora."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPU Cooler: Un dispositivo de enfriamiento, como un disipador de calor y un ventilador, para mantener la temperatura de la CPU bajo control."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarjeta de Red (Network Card): Una tarjeta de expansión que permite la conexión a redes Ethernet o inalámbricas."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarjeta de Sonido (Sound Card): Una tarjeta de expansión que mejora la calidad de audio y permite la conexión de altavoces y micrófonos."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unidad Óptica: Un dispositivo de almacenamiento que utiliza discos ópticos, como CD, DVD o Blu-ray, para leer y escribir datos."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monitor: La pantalla de salida que muestra la información visual generada por la computadora."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resolución de Pantalla: La cantidad de píxeles que una pantalla puede mostrar, generalmente medida en píxeles de ancho por píxeles de alto."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPU Socket: El enchufe o zócalo en la placa base donde se coloca la CPU."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overclocking: El proceso de aumentar la velocidad del reloj de la CPU o GPU para mejorar el rendimiento, a menudo más allá de las especificaciones de fábrica."
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIOS Update: Actualización del firmware de la BIOS para agregar características, solucionar problemas o mejorar la compatibilidad."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firmware: El software de bajo nivel que controla los componentes de hardware."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Núcleo (Core): Una unidad de procesamiento individual dentro de una CPU multinúcleo."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPU dedicada: Una tarjeta gráfica independiente que no está integrada en la placa base o la CPU."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VRAM (Video RAM): Memoria dedicada en una tarjeta gráfica utilizada para almacenar texturas y otros datos gráficos."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIOS Password: Una contraseña que protege el acceso a la configuración de la BIOS."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CMOS Battery: Una pequeña batería utilizada para mantener la configuración de la BIOS cuando la computadora está apagada."
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puertos SATA: Puertos utilizados para conectar dispositivos de almacenamiento, como discos duros y SSD."
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>
+    </ScrollView>
